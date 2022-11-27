@@ -82,7 +82,6 @@ function FirstAssignment(props) {
 
   return (
     <div className="task_one">
-      <h1> Finally Task is over</h1>
       { ( <TaskDescription anyone={anyone} option_one={first} option_two={second} both={both}/>)}
       <div>
         {props.column.all && (
