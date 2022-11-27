@@ -1,0 +1,80 @@
+.task_one {
+  width: auto;
+  height: 2341px;
+  background: #ffffff;
+}
+.assignment1 {
+  position: relative;
+  text-align: left;
+  width: 921px;
+  height: 108px;
+  left: 85px;
+
+  /* Sans/Sans_3
+    
+    .inputText_M | Nav_L | paragraph_L 
+    */
+  font-family: "Noto Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 170%;
+  /* or 41px */
+
+  color: #383838;
+}
+.table_group_one {
+  border-collapse: collapse;
+  text-align: left;
+  margin: auto;
+  align-items: flex-start;
+  padding: 0px;
+  position: absolute;
+  font-size: 14px;
+  width: auto;
+  height: 320px;
+  left: 86px;
+  top: auto;
+}
+
+th, td {
+  width: 175px;
+  border: 1px solid #e1e1e1;
+  align-items: center;
+  margin: 0;
+  height: 40px;
+  padding: 8px 10px;
+}
+.table_rows th span{
+  position: absolute;
+}
+tr:nth-child(even){
+    background: #F5F5F5;
+    
+}
+
+#profile_image{
+  box-sizing: border-box;
+
+width: 25px;
+height: 25px;
+margin-right: 10px;
+
+/* GreyColor/70 */
+
+border: 1px solid #747474;
+border-radius: 40px;
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+
+.table_handler_list{
+  text-align: left;
+}
+.table_handler_list ul li{
+  list-style-type: none;
+}
