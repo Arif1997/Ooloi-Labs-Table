@@ -2,7 +2,7 @@
   {
     "person": {
       "name": "Prerna Jha",
-      "avatar": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRBwgu1A5zgPSvfE83nurkuzNEoXs9DMNr8Ww&usqp=CAU"
+      "avatar": "images/Arif.jpg"
     },
     "city": "Mumbai",
     "email": "prernajha@gmail.com",
@@ -12,7 +12,7 @@
   {
     "person": {
       "name": "Rukmini Pandit",
-      "avatar": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRBwgu1A5zgPSvfE83nurkuzNEoXs9DMNr8Ww&usqp=CAU"
+      "avatar": "images/Arifdv.jpg"
     },
     "city": "Delhi",
     "email": "rukminipandit@gmail.com",
@@ -22,7 +22,7 @@
   {
     "person": {
       "name": "Nandhini Lingesh",
-      "avatar": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRBwgu1A5zgPSvfE83nurkuzNEoXs9DMNr8Ww&usqp=CAU"
+      "avatar": "images/soriya.jpg"
     },
     "city": "Delhi",
     "email": "nandhinilingesh@gmail.com",
@@ -32,7 +32,7 @@
   {
     "person": {
       "name": "Ankit Singh",
-      "avatar": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRBwgu1A5zgPSvfE83nurkuzNEoXs9DMNr8Ww&usqp=CAU"
+      "avatar": "images/profile1.jpeg"
     },
     "city": "Kolkata",
     "email": "ankitsingh@gmail.com",
@@ -42,7 +42,7 @@
   {
     "person": {
       "name": "Amith Kumar",
-      "avatar": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRBwgu1A5zgPSvfE83nurkuzNEoXs9DMNr8Ww&usqp=CAU"
+      "avatar": "images/profile1.webp"
     },
     "city": "Mumbai",
     "email": "amithkumar@gmail.com",
@@ -52,7 +52,7 @@
   {
     "person": {
       "name": "Shalini Singhla",
-      "avatar": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRBwgu1A5zgPSvfE83nurkuzNEoXs9DMNr8Ww&usqp=CAU"
+      "avatar": "images/profile2.jpeg"
     },
     "city": "Mumbai",
     "email": "shalinisinghla@gmail.com",
@@ -62,7 +62,7 @@
   {
     "person": {
       "name": "Abhishek Singh",
-      "avatar": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRBwgu1A5zgPSvfE83nurkuzNEoXs9DMNr8Ww&usqp=CAU"
+      "avatar": "images/profile3.jpeg"
     },
     "city": "Kolkata",
     "email": "abhisheksingh@gmail.com",
