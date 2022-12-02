@@ -26,6 +26,8 @@ function FirstAssignment(props) {
       });
   };
 
+
+
   const [sorted_Name, setSortedName] = useState(false);
   const [sorted_City, setSortedCity] = useState(false);
   const [sorted_Date, setSorted_Date] = useState(false);
@@ -55,6 +57,14 @@ function FirstAssignment(props) {
     getData();
   }, []);
 
+//   const [newData, setNewData]=useState([]);
+// useEffect(()=>{  setNewData(()=>{
+//   return [{
+//     ...data,
+//     keyss: 'thanks'
+//   }]
+// })
+// console.log(newData);})
   const items = data.map((x, index) => (
     <tr className="table_rows" key={index}>
       {first && (

@@ -1,7 +1,10 @@
 import "./App.css";
-import FirstAssignment from "./components/first-assignment";
+import React, {Suspense} from "react";
 import { useState, useEffect } from "react";
+import {Route, Routes, BrowserRouter as Router} from "react-router-dom";
 import Button from "./components/styled-componets/Button";
+const FirstAssignment= React.lazy(()=>import('./components/first-assignment'));
+const Description =React.lazy(()=>import('./components/description'))
 
 function App() {
   const [columns, setColumns] = useState({
@@ -58,6 +61,7 @@ function App() {
 
   return (
     <div className="App">
+      <Button><a href="/" >Table</a></Button>
       <Button  value={"none"} onClick={columnHandler}>
         None
       </Button>
@@ -70,7 +74,19 @@ function App() {
       <Button  value={"option_two"} onClick={columnHandler}>
         Button Two
       </Button>
-      <FirstAssignment column={columns} />
+
+      <Button><a href="/description" >Description</a></Button>
+      <Router>
+        <Suspense fallback={
+          <p>Loading...</p>
+        }>
+        <Routes>
+          <Route path='/' exact element= {<FirstAssignment column={columns}/>} />
+          <Route path='/description' exact element= { <Description />} />
+        </Routes>
+        </Suspense>
+      </Router> 
+
       {/* It is also possible to pass the configuration value at the second and third call of the component
       manually by giving some properies values instead of changing the states
       Ex: <FirstAssignment column1_display="true" column1_display="true" column2_display="false" column1_display="true"
